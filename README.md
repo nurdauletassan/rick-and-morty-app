@@ -34,7 +34,7 @@ Users can:
    ```bash
    npm start
    ```
-4. The app will open in your browser at `http://localhost:3000`.
+s
 
 ## 📐 Design and Development Process
 
