@@ -1,74 +1,74 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# 🛸 Rick and Morty App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application that allows users to search and view information about characters, episodes, and locations from the **Rick and Morty** animated series.
 
-## Available Scripts
+## 📖 Project Description
 
-In the project directory, you can run:
+The application is built using the public [Rick and Morty API](https://rickandmortyapi.com/documentation).  
+Users can:
+- Search for characters by name
+- View character cards with an image, name, status, species, and current location
+- Navigate through pages of characters using pagination
+- See smooth loading skeletons while data is loading
+- Switch to the dark/light theme
+  
+## 🛠️ Tech Stack
 
-### `npm start`
+- **React** — JavaScript library for building user interfaces
+- **Axios** — HTTP client for making API requests
+- **CSS** — for styling without using CSS frameworks
+- **Rick and Morty API** — data source for characters, episodes, and locations
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Installation and Setup
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nurdauletassan/rick-and-morty-app.git
+   cd rick-and-morty-app
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the app:
+   ```bash
+   npm start
+   ```
+4. The app will open in your browser at `http://localhost:3000`.
 
-### `npm test`
+## 📐 Design and Development Process
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Started with setting up the basic React application structure
+- Implemented a search and pagination component
+- Connected to the API using Axios and handled loading states
+- Added **SkeletonCard** components to display loading skeletons while waiting for data
+- Created a clean, responsive card layout displaying character images, names, status, species, and current location
 
-### `npm run build`
+## 💡 Unique Approaches and Solutions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Skeleton Loaders** are used during data loading to improve user experience
+- Used **plain CSS** for full control over styling, without relying on frameworks
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ⚖️ Trade-offs
+- Currently implemented search by name and pagination, without filters for status, species, and gender
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🐞 Known Issues
+- When searching for characters with no results, an error message is displayed, but similar names are not suggested
 
-### `npm run eject`
+## 📊 Why This Tech Stack?
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React** — a popular, flexible, and convenient tool for building single-page applications
+- **Axios** — a simple and understandable client for working with APIs
+- **Rick and Morty API** — open and free, perfectly suited for a pet project with JSON structure
+- Plain **CSS** — for practice without ready-made style libraries and custom design
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎥 Demo Video
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## 📌 Future Enhancements
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# rick-and-morty-app
->>>>>>> 8e7785720973e40c9a03cda65be1aafbf34c4e90
+- Add filtering characters by status, species, and gender
+- Integrate AI API for generating character descriptions
+- Implement component testing
+```
