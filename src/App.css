@@ -107,7 +107,7 @@ body.light-theme {
 /* Theme-specific card styles */
 /* Dark theme cards - white background with black text */
 body.dark-theme .card {
-  background: white;
+  background: rgb(238, 235, 235);
   color: black;
 }
 
