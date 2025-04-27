@@ -22,6 +22,7 @@ function LocationDetails() {
         await new Promise((resolve) => setTimeout(resolve, 300));
         setLocation(locationResponse.data);
         
+        // Fetch residents
         if (locationResponse.data.residents.length > 0) {
           const residentPromises = locationResponse.data.residents.map(url =>
             axios.get(url)

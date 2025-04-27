@@ -22,6 +22,7 @@ function EpisodeDetails() {
         await new Promise((resolve) => setTimeout(resolve, 300));
         setEpisode(episodeResponse.data);
         
+        // Fetch characters
         if (episodeResponse.data.characters.length > 0) {
           const characterPromises = episodeResponse.data.characters.map(url =>
             axios.get(url)
