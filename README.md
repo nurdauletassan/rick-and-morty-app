@@ -62,9 +62,8 @@ s
 - **Rick and Morty API** — open and free, perfectly suited for a pet project with JSON structure
 - Plain **CSS** — for practice without ready-made style libraries and custom design
 
-## 🎥 Demo Video
-
-
+##  Vercel App
+https://rick-and-morty-app-silk-one.vercel.app/
 
 ## 📌 Future Enhancements
 
